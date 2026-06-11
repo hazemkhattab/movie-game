@@ -58,7 +58,7 @@ export function SpinnerWheel({ onResult, disabled }: SpinnerWheelProps) {
     <div className="flex flex-col items-center gap-6">
       <div className="relative aspect-square w-full max-w-[20rem]">
         {/* Pointer */}
-        <div className="absolute -top-2 left-1/2 z-20 -translate-x-1/2">
+        <div className="absolute -top-1 left-1/2 z-20 -translate-x-1/2">
           <div className="size-0 border-x-[14px] border-t-[24px] border-x-transparent border-t-foreground drop-shadow-lg" />
         </div>
 
